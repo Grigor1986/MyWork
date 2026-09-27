@@ -28,7 +28,6 @@ public class CollectionTreeSet {
         for (Integer num : resultTreeSet) {
             System.out.println(num);
         }
-
     }
 
     private static TreeSet<Integer> unionTreeLargeNumber(Set<Integer> set1, Set<Integer> set2, Set<Integer> set3) {
@@ -58,5 +57,6 @@ public class CollectionTreeSet {
             }
             return result;
         }
+
     }
 
